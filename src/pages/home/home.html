@@ -1,29 +1,50 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>
-      Login
+    <ion-title style="text-align: center; font-size: 100px; font-family: 'Sigmar One', cursive;">
+      Welcome to Cheat™
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
 
-    <ion-list>
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 
-        <ion-item>
-          <ion-label>Username</ion-label>
-          <ion-input type="text"></ion-input>
-        </ion-item>
-      
-        <ion-item>
-          <ion-label>Password</ion-label>
-          <ion-input type="password"></ion-input>
-        </ion-item>
-      
-      </ion-list>
-      
-      <div padding>
-        <button ion-button full>Log In</button>
-      </div>
+<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+
+    <style type="text/css">
+        a.nounderline {text-decoration: none; }
+    </style>
+
+
+</head>
+
+<ion-content style="background-color: rgb(204, 203, 203);" padding>
+
+<div style="border: black 2px dashed">
+    <ul class="colorbox">
+      <li>
+        <a class="nounderline" style="font:'Lobster' red" href="FrontPage">Home</a>
+      </li>
+      <li>
+        <a class="nounderline" href="LoginPage">Login</a>
+      </li>
+      <li>
+        <a class="nounderline" href="RegistrationPage">Register</a>
+      </li>
+    </ul>
+  </div>
+
+    <ion-row style="height:20rem"></ion-row>
+
+
+    <div class="centerbox colorbox" padding>
+      <button ion-button (click)="navigateToLogin()" full>Login</button>
+      <p style="font-family: 'Lobster'"> Not already signed up? </p>
+      <button ion-button (click)="navigateToRegistration()" full>Register</button>
+    </div>
+
+    <ion-row style="height:10rem"></ion-row>
 
 </ion-content>

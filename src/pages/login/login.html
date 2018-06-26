@@ -1,0 +1,45 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title style="text-align: center; font-size: 100px; font-family: 'Sigmar One', cursive;">
+            Login
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+
+</head>
+
+<ion-content style="background-color: rgb(204, 203, 203);" padding>
+
+    <ion-row style="height:20rem"></ion-row>
+
+
+    <div class="centerbox colorbox" padding>
+        <p style="font-family: 'Lobster'"> Completely unsecure login.</p>
+        
+        <ion-list>
+
+            <ion-item>
+                <ion-label>Username</ion-label>
+                <ion-input type="text"></ion-input>
+            </ion-item>
+
+            <ion-item>
+                <ion-label>Password</ion-label>
+                <ion-input type="password"></ion-input>
+            </ion-item>
+
+        </ion-list>
+
+
+
+        <button ion-button (click)="navigateToFront()" full>Log In</button>
+    </div>
+
+</ion-content>
