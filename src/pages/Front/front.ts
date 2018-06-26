@@ -2,12 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { LoginPage } from '../login/login';
 import { RegistrationPage } from '../registration/registration';
-
-@IonicPage({
-    name: 'front',
-    segment: 'Profiles'
-  })
-
+  
 @Component({
     selector: 'page-front',
     templateUrl: 'front.html'
