@@ -7,8 +7,11 @@ import { FrontPage } from '../Front/front';
     templateUrl: 'login.html'
 })
 export class LoginPage {
+    public email: string;
 
-    constructor(public navCtrl: NavController) { }
+    constructor(public navCtrl: NavController) {
+        this.email="miki@gmail.com"
+     }
 
     navigateToLogin() {
         console.log("Navigating...");
@@ -19,5 +22,5 @@ export class LoginPage {
         this.navCtrl.push(FrontPage)
     }
 
+    }
 
-}

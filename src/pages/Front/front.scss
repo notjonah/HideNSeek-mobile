@@ -25,12 +25,23 @@ page-front {
         font-size: 200%;
         margin: 10px 0px 10px 10px;
     }
-  
+    .checkoutbutton{
+
+        position:center;
+        width: 100%;
+        top:100px;
+     }
     .logoutbutton{
 
         position:right;
         width: 10%;
         right:10px;
         top:100px;
+     }
+
+     .profilePics {
+         width: 184px;
+         height: 184px;
+
      }
 }

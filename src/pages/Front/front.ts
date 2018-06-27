@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { LoginPage } from '../login/login';
 import { RegistrationPage } from '../registration/registration';
+import { ProductsPage } from '../products/products';
   
 @Component({
     selector: 'page-front',
@@ -19,6 +20,12 @@ export class FrontPage {
         console.log("Navigating...");
     
         this.navCtrl.push(LoginPage)
+      }
+
+      navigateToProducts() {
+        console.log("Navigating...");
+    
+        this.navCtrl.push(ProductsPage)
       }
 
 
