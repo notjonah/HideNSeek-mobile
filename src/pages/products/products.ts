@@ -3,6 +3,7 @@ import { NavController, NavParams, Item } from 'ionic-angular';
 import { Item_1Page } from '../item-1/item-1';
 import { LoginPage } from '../login/login';
 import { Item_3Page } from '../item-3/item-3';
+import { Item_2Page } from '../item-2/item-2';
 
 /**
  * Generated class for the ProductsPage page.
@@ -30,7 +31,7 @@ export class ProductsPage {
     this.navCtrl.push(Item_1Page)
 
     if (item == "3 Hour Package")
-    this.navCtrl.push(Item_3Page)
+    this.navCtrl.push(Item_2Page)
 
     if (item == "1 Year Package")
     this.navCtrl.push(Item_3Page)
