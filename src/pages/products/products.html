@@ -1,0 +1,50 @@
+<!--
+  Generated template for the ProductsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title style="font-family: 'Lobster'"> Exquisite Products </ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<head>
+  <p>
+    <a href="products.php" target="_self">Back to All Products</a>
+  </p>
+
+  <link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+
+  <style type="text/css">
+    a.nounderline {
+      text-decoration: none;
+    }
+  </style>
+
+</head>
+
+<ion-content padding>
+
+  <h1>
+    <q style="font-family: 'Lobster'">Buying stuff is the #1 way not to cure your depression.</q>
+    <b style="font-family: 'Lobster'">Dr. Phil</b>
+  </h1>
+
+  <ion-content>
+      <ion-list>
+        <button ion-item *ngFor="let item of items" (click)="itemSelected(item)">
+          {{ item }}
+        </button>
+      </ion-list>
+    </ion-content>
+
+  
+</ion-content>

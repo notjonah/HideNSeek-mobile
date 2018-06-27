@@ -1,0 +1,61 @@
+page-item-4 {
+
+    .centerbox {
+        width: 50%;
+        margin: auto; 
+    }
+    
+    .colorbox { 
+        background: rgb(240, 237, 237); 
+        border-radius: 1%;
+    
+    }
+    
+    a {
+        color: navy;
+        }
+    
+    a {text-decoration:none;}
+    
+
+    .floaty {
+        font: 'sigmar' bold;
+        margin: 10px 5em 10px 10px
+    }
+
+    .post-container {
+        margin: 20px 20px 20px 20px;  
+        border: 5px solid #333;
+        overflow: auto
+    }
+    .post-thumb {
+        float: left;
+        margin: 10px
+    }
+    .post-thumb img {
+        display: block
+    }
+    .post-content {
+        margin-left: 210px
+    }
+    .post-title {
+        font-weight: bold;
+        font-size: 200%;
+        margin: 10px 0px 10px 10px;
+    }
+  
+    .logoutbutton{
+
+        position:right;
+        width: 10%;
+        right:10px;
+        top:100px;
+     }
+
+     .profilePics {
+         width: 184px;
+         height: 184px;
+
+     }
+}
+
