@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Product } from '../../models/product';
-import { PaymentPage } from '../payment/payment';
+import { payment, PaymentPage } from '../payment/payment';
 
 /**
 * Generated class for the ProductPage page.

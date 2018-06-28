@@ -53,7 +53,7 @@ import { ProductService } from '../Services/product.service';
     ProductsPage,
     PaymentPage, 
     ProductPage, 
-    ProductlistPage
+    ProductlistPage,
 
   ],
   providers: [
