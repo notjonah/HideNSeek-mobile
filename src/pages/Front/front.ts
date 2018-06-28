@@ -3,6 +3,8 @@ import { NavController } from 'ionic-angular';
 import { LoginPage } from '../login/login';
 import { RegistrationPage } from '../registration/registration';
 import { ProductsPage } from '../products/products';
+import { ProductPage } from '../product/product';
+import { ProductlistPage } from '../productlist/productlist';
   
 @Component({
     selector: 'page-front',
@@ -22,10 +24,10 @@ export class FrontPage {
         this.navCtrl.push(LoginPage)
       }
 
-      navigateToProducts() {
+      navigateToProductlist() {
         console.log("Navigating...");
     
-        this.navCtrl.push(ProductsPage)
+        this.navCtrl.push(ProductlistPage)
       }
 
 

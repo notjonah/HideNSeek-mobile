@@ -38,13 +38,14 @@
     <b style="font-family: 'Lobster'">Dr. Phil</b>
   </h1>
 
-  <ion-content>
-      <ion-list>
-        <button ion-item *ngFor="let item of items" (click)="itemSelected(item)">
-          {{ item }}
-        </button>
-      </ion-list>
-    </ion-content>
+  <ion-list>
 
-  
-</ion-content>
+    <button ion-item *ngFor="let product of products" (click)="navigateToProduct(product)">
+      {{product.name}}
+    </button>
+
+  </ion-list>
+
+      
+    </ion-content>
+    

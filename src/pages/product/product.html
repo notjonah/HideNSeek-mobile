@@ -1,5 +1,5 @@
 <!--
-  Generated template for the Item_1Page page.
+  Generated template for the ProductPage page.
 
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
@@ -7,40 +7,33 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>1 HOUR PACKAGE</ion-title>
+    <ion-title>product</ion-title>
   </ion-navbar>
 
 </ion-header>
-
 
 
 <ion-content padding>
 
   <div class="post-container">
     <div class="post-thumb">
-      <img class="profilePics" src="http://wakeparkgroningen.nl/wp-content/uploads/2016/01/product-x1hour-1.jpg" />
+      <img class="profilePics" src=""/>
     </div>
     <div class="post-content">
       <ion-row style="height: 10px"></ion-row>
-      <h3 class="post-title">1 HOUR PACKAGE</h3>
-      <h3> $700 </h3>
-
+      <h3 class="post-title">{{product?.name}}</h3>
+      <h3> {{product?.price}} </h3>
       <h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Special Talents Include:</h2>
-
       <ul style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
-        <li> 1 hr of decent quality music </li>
-        <li> short enough it won't get annoying</li>
-        <li> original content</li>
-        <li> in tune most of the time</li>
+        <li> {{product?.descript1}} </li>
+        <li> {{product?.descript2}}</li>
+        <li> {{product?.descript3}}</li>
+        <li> {{product?.descript4}}</li>
       </ul>
-
     </div>
-
   </div>
-
   <div class="centerbox colorbox" padding>
-      <button style="color: rgb(160, 198, 211)" ion-button (click)="haha" full>Add to Cart</button>
-    <button ion-button (click)="haha" full>Buy it Now</button>
+    <button style="color: rgb(160, 198, 211)" ion-button (click)="navigateToPayment()" full>Add to Cart</button>
+    <button ion-button (click)="navigateToPayment()" full>Buy it Now</button>
   </div>
-
 </ion-content>
