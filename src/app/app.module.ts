@@ -13,6 +13,7 @@ import { PaymentPage } from '../pages/payment/payment';
 import { ProductPage } from '../pages/product/product';
 import { ProductlistPage } from '../pages/productlist/productlist';
 import { ProductService } from '../Services/product.service';
+import { MapPage } from '../pages/map/map';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { ProductService } from '../Services/product.service';
     ProductsPage,
     PaymentPage, 
     ProductPage, 
-    ProductlistPage
+    ProductlistPage,
+    MapPage
 
 
     
@@ -38,6 +40,8 @@ import { ProductService } from '../Services/product.service';
       { component: FrontPage, name: "front", segment: "front"},
       { component: ProductPage, name: "product", segment: "product"},
       { component: ProductsPage, name: "products", segment: "products"},
+      { component: PaymentPage, name: "payment", segment: "payment"},
+      { component: MapPage, name: "map", segment: "map"},
       { component: RegistrationPage, name: "registration", segment: "registration" }]})
   
 
@@ -54,6 +58,8 @@ import { ProductService } from '../Services/product.service';
     PaymentPage, 
     ProductPage, 
     ProductlistPage,
+    MapPage
+    
 
   ],
   providers: [

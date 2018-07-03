@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Product } from '../../models/product';
-import { payment, PaymentPage } from '../payment/payment';
+import { PaymentPage } from '../payment/payment';
 
 /**
 * Generated class for the ProductPage page.
-*
+*s
 * See https://ionicframework.com/docs/components/#navigation for more info on
 * Ionic pages and navigation.
 */
